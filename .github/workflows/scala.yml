@@ -1,6 +1,9 @@
 name: Scala Deploy to Docker
 
 on:
+  pull_request:
+    branches: 
+      - test_docker/* 
   push:
     branches: [ master ]
 
