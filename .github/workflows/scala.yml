@@ -4,10 +4,10 @@ on:
   pull_request:
     branches: 
       - test_docker/* 
-  push:	  push:
+  push:
     branches: [ master ]
 
-jobs:	jobs:
+jobs:
   publish_docker:
     runs-on: ubuntu-latest
     steps:
