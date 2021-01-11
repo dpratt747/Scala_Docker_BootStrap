@@ -4,6 +4,8 @@
 
 ![Build](https://github.com/dpratt747/Scala_Docker_BootStrap/workflows/Build/badge.svg?branch=master&event=push)
 
+The published build can be found [here](https://hub.docker.com/r/dpratt747/docker-scala-bootstrap)
+
 * Dotty
 * Docker
 * Github Actions
