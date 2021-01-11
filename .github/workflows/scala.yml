@@ -1,4 +1,4 @@
-name: Scala Deploy to Docker
+name: Build
 
 on:
   push:

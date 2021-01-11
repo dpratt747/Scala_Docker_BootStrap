@@ -2,6 +2,8 @@
 
 ---
 
+![Build](https://github.com/peaceiris/actions-gh-pages/workflows/Build/badge.svg?branch=master&event=push)
+
 * Dotty
 * Docker
 * Github Actions
@@ -10,18 +12,18 @@
 For more information about the sbt Docker plugin please visit [here](https://www.scala-sbt.org/sbt-native-packager/formats/docker.html)
 
 ### Commands:
-```sbt
+```zsh
 sbt docker:publishLocal
 ```
 
-```sbt
+```zsh
 sbt docker:publish
 ```
 
-```sbt
+```zsh
 sbt release
 ```
 
-```sbt
+```zsh
 sbt "release with-defaults"
 ```
