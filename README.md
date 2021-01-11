@@ -2,7 +2,7 @@
 
 ---
 
-![Build](https://github.com/peaceiris/actions-gh-pages/workflows/Build/badge.svg?branch=master&event=push)
+![Build](https://github.com/dpratt747/Scala_Docker_BootStrap/workflows/Build/badge.svg?branch=master&event=push)
 
 * Dotty
 * Docker
