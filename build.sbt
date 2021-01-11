@@ -12,9 +12,6 @@ releaseProcess := Seq[ReleaseStep](
   runClean,                               // : ReleaseStep
   runTest,                                // : ReleaseStep
   setReleaseVersion,                      // : ReleaseStep
-  commitReleaseVersion,                   // : ReleaseStep, performs the initial git checks
-  tagRelease,                             // : ReleaseStep
-//  publishArtifacts,                       // : ReleaseStep, checks whether `publishTo` is properly set up
   releaseStepTask(publish in Docker),     // : ReleaseStep, publish the docker image in your specified repository(e.i. Nexus)
   setNextVersion,                         // : ReleaseStep
   commitNextVersion,                      // : ReleaseStep

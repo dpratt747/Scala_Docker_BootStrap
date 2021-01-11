@@ -16,3 +16,7 @@ sbt docker:publish
 ```sbt
 sbt release
 ```
+
+```sbt
+sbt "release with-defaults"
+```

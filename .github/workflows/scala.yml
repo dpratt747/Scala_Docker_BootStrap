@@ -19,5 +19,5 @@ jobs:
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
       run:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-    - name: Publish to Docker
-      run: sbt docker:publish
+    - name: Publish to Docker and bump tag
+      run: sbt "release with-defaults"
