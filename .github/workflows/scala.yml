@@ -20,4 +20,7 @@ jobs:
       run:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Publish to Docker and bump tag
-      run: sbt "release with-defaults"
+      run:
+        git config --global user.name 'sbt-release-user'
+        git config --global user.email 'release@example.com'
+        sbt "release with-defaults"
